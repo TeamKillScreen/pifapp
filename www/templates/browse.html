@@ -4,5 +4,12 @@
   </ion-nav-buttons>
   <ion-content class="has-header">
     <h1>Browse</h1>
-  </ion-content>
+    <button class="button" ng-click="getLocation()">
+      Location
+    </button>
+    {{ geopoint.latitude }}
+    {{ geopoint.longitude }}
+</ion-content>
 </ion-view>
+
+<!-- https://launch.secure.barclays.com/qr/qr.html?pingit://00/07985222260 -->
