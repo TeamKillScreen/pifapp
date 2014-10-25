@@ -7,3 +7,16 @@
 2014-10-25 16:43:51.553 payitforwardapp[4627:99280] Resetting plugins due to page load.
 2014-10-25 16:43:51.781 payitforwardapp[4627:99280] Finished load of: file:///Users/alangorton/Library/Developer/CoreSimulator/Devices/573A7BCD-775E-4BBB-AADD-19DF3B4D7388/data/Containers/Bundle/Application/43BA4D3D-99B9-473B-990C-F9D2C46F1900/payitforwardapp.app/www/index.html#/app/playlists
 2014-10-25 16:43:56.641 payitforwardapp[4627:99280] THREAD WARNING: ['SocialSharing'] took '18.041016' ms. Plugin should use a background thread.
+2014-10-25 17:20:47.328 payitforwardapp[5185:142481] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/alangorton/Library/Developer/CoreSimulator/Devices/573A7BCD-775E-4BBB-AADD-19DF3B4D7388/data/Containers/Data/Application/7BBFC398-265E-45F8-914E-BECD0A5828D0/Library/Cookies/Cookies.binarycookies
+2014-10-25 17:20:47.479 payitforwardapp[5185:142481] Apache Cordova native platform version 3.6.3 is starting.
+2014-10-25 17:20:47.482 payitforwardapp[5185:142481] Multi-tasking -> Device: YES, App: YES
+2014-10-25 17:20:47.494 payitforwardapp[5185:142481] Unlimited access to network resources
+2014-10-25 17:20:47.765 payitforwardapp[5185:142481] [CDVTimer][socialsharing] 64.774990ms
+2014-10-25 17:20:47.765 payitforwardapp[5185:142481] [CDVTimer][TotalPluginStartup] 65.017045ms
+2014-10-25 17:20:47.830 payitforwardapp[5185:142481] Resetting plugins due to page load.
+2014-10-25 17:20:48.070 payitforwardapp[5185:142481] Finished load of: file:///Users/alangorton/Library/Developer/CoreSimulator/Devices/573A7BCD-775E-4BBB-AADD-19DF3B4D7388/data/Containers/Bundle/Application/D24924D8-011D-4F92-97F6-82FEF2D91E60/payitforwardapp.app/www/index.html#/app/playlists
+2014-10-25 17:20:59.700 payitforwardapp[5185:142481] CDVWebViewDelegate: Navigation started when state=1
+2014-10-25 17:20:59.702 payitforwardapp[5185:142481] Failed to load webpage with error: CDVWebViewDelegate: Navigation started when state=1
+2014-10-25 17:21:01.636 payitforwardapp[5185:142481] CDVWebViewDelegate: Navigation started when state=1
+2014-10-25 17:21:01.636 payitforwardapp[5185:142481] Failed to load webpage with error: CDVWebViewDelegate: Navigation started when state=1
+2014-10-25 17:21:08.087 payitforwardapp[5185:142481] viewServiceDidTerminateWithError: Error Domain=_UIViewServiceInterfaceErrorDomain Code=3 "The operation couldn’t be completed. (_UIViewServiceInterfaceErrorDomain error 3.)" UserInfo=0x7a97fba0 {Message=Service Connection Interrupted}

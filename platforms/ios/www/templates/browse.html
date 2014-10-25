@@ -10,11 +10,17 @@
     <button class="button" ng-click="shareViaTwitter()">
       Share
     </button>
+    <button class="button" ng-click="showCalendar()">
+      App
+    </button>
+    <button class="button" ng-click="showPingit()">
+      Pingit
+    </button>
     {{ geopoint.latitude }}
     {{ geopoint.longitude }}
     Message: {{ message }}
 
-    <a href="pingit://00/07999999999">PingIt</a>
+    <a href="pingit://00/07999999999" target="">PingIt</a>
 </ion-content>
 </ion-view>
 

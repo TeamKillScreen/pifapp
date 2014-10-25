@@ -33,4 +33,12 @@ angular.module("starter")
       .shareViaTwitter("Hello" /* , image, link */)
       .then(win, fail);
     };
+
+    $scope.showCalendar = function () {
+      document.location = "calshow://";
+    };
+
+    $scope.showPingit = function () {
+      document.location = "pingit://00/07985222260";
+    };
 });
