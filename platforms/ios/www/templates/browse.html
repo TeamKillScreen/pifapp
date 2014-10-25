@@ -1,0 +1,21 @@
+<ion-view title="Browse">
+  <ion-nav-buttons side="left">
+    <button menu-toggle="left"class="button button-icon icon ion-navicon"></button>
+  </ion-nav-buttons>
+  <ion-content class="has-header">
+    <h1>Browse</h1>
+    <button class="button" ng-click="getLocation()">
+      Location
+    </button>
+    <button class="button" ng-click="shareViaTwitter()">
+      Share
+    </button>
+    {{ geopoint.latitude }}
+    {{ geopoint.longitude }}
+    Message: {{ message }}
+
+    <a href="pingit://00/07999999999">PingIt</a>
+</ion-content>
+</ion-view>
+
+<!-- https://launch.secure.barclays.com/qr/qr.html?pingit://00/07985222260 -->
