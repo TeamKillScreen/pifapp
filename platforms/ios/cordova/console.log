@@ -20,3 +20,11 @@
 2014-10-25 17:21:01.636 payitforwardapp[5185:142481] CDVWebViewDelegate: Navigation started when state=1
 2014-10-25 17:21:01.636 payitforwardapp[5185:142481] Failed to load webpage with error: CDVWebViewDelegate: Navigation started when state=1
 2014-10-25 17:21:08.087 payitforwardapp[5185:142481] viewServiceDidTerminateWithError: Error Domain=_UIViewServiceInterfaceErrorDomain Code=3 "The operation couldn’t be completed. (_UIViewServiceInterfaceErrorDomain error 3.)" UserInfo=0x7a97fba0 {Message=Service Connection Interrupted}
+2014-10-25 22:03:03.221 payitforwardapp[5500:424506] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/alangorton/Library/Developer/CoreSimulator/Devices/573A7BCD-775E-4BBB-AADD-19DF3B4D7388/data/Containers/Data/Application/7E5CC442-592A-4706-8EDB-F4C1A6BADFBD/Library/Cookies/Cookies.binarycookies
+2014-10-25 22:03:03.426 payitforwardapp[5500:424506] Apache Cordova native platform version 3.6.3 is starting.
+2014-10-25 22:03:03.427 payitforwardapp[5500:424506] Multi-tasking -> Device: YES, App: YES
+2014-10-25 22:03:03.470 payitforwardapp[5500:424506] Unlimited access to network resources
+2014-10-25 22:03:03.958 payitforwardapp[5500:424506] [CDVTimer][socialsharing] 92.642009ms
+2014-10-25 22:03:03.958 payitforwardapp[5500:424506] [CDVTimer][TotalPluginStartup] 92.963994ms
+2014-10-25 22:03:04.214 payitforwardapp[5500:424506] Resetting plugins due to page load.
+2014-10-25 22:03:04.741 payitforwardapp[5500:424506] Finished load of: file:///Users/alangorton/Library/Developer/CoreSimulator/Devices/573A7BCD-775E-4BBB-AADD-19DF3B4D7388/data/Containers/Bundle/Application/98661F18-4328-48CF-B9E9-64968958699A/payitforwardapp.app/www/index.html#/app/what

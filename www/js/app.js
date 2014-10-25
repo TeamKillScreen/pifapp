@@ -1,12 +1,6 @@
-// Ionic Starter App
+angular.module("starter", ["ionic", "ngCordova" , "starter.controllers"])
 
-// angular.module is a global place for creating, registering and retrieving Angular modules
-// 'starter' is the name of this angular module example (also set in a <body> attribute in index.html)
-// the 2nd parameter is an array of 'requires'
-// 'starter.controllers' is found in controllers.js
-angular.module('starter', ['ionic', 'ngCordova' , 'starter.controllers'])
-
-.run(function($ionicPlatform) {
+.run(function ($ionicPlatform) {
   $ionicPlatform.ready(function() {
     // Hide the accessory bar by default (remove this to show the accessory bar above the keyboard
     // for form inputs)
@@ -23,70 +17,86 @@ angular.module('starter', ['ionic', 'ngCordova' , 'starter.controllers'])
 .config(function($stateProvider, $urlRouterProvider) {
   $stateProvider
 
-  .state('app', {
+  .state("app", {
     url: "/app",
     abstract: true,
     templateUrl: "templates/menu.html",
-    controller: 'AppCtrl'
+    controller: "AppCtrl"
   })
 
-  .state('app.search', {
+  .state("app.search", {
     url: "/search",
     views: {
-      'menuContent' :{
+      "menuContent" :{
         templateUrl: "templates/search.html"
       }
     }
   })
 
-  .state('app.browse', {
+  .state("app.browse", {
     url: "/browse",
     views: {
-      'menuContent' :{
+      "menuContent" :{
         templateUrl: "templates/browse.html",
         controller: "ReportCtrl"
       }
     }
   })
-  .state('app.playlists', {
+  .state("app.playlists", {
     url: "/playlists",
     views: {
-      'menuContent' :{
+      "menuContent" :{
         templateUrl: "templates/playlists.html",
-        controller: 'PlaylistsCtrl'
+        controller: "PlaylistsCtrl"
       }
     }
   })
 
-  .state('app.single', {
+  .state("app.single", {
     url: "/playlists/:playlistId",
     views: {
-      'menuContent' :{
+      "menuContent" :{
         templateUrl: "templates/playlist.html",
-        controller: 'PlaylistCtrl'
+        controller: "PlaylistCtrl"
       }
     }
   })
 
-  .state('app.what', {
+  .state("app.what", {
     url: "/what",
     views: {
-      'menuContent' :{
+      "menuContent" :{
         templateUrl: "templates/what.html",
         controller: "WhatCtrl",
       }
     }
   })
 
-  .state('app.who', {
+  .state("app.who", {
     url: "/who",
     views: {
-      'menuContent' :{
+      "menuContent" :{
         templateUrl: "templates/who.html",
         controller: "WhoCtrl",
       }
     }
-  });
+  })
 
-  $urlRouterProvider.otherwise('/app/playlists');
-});
+  .state("app.value", {
+    url: "/value",
+    views: {
+      "menuContent" :{
+        templateUrl: "templates/value.html",
+        controller: "ValueCtrl",
+      }
+    }
+  })
+
+  ;
+
+  $urlRouterProvider.otherwise("/app/what");
+})
+
+.value("gift", null)
+
+;

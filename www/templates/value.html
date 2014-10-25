@@ -1,0 +1,12 @@
+<ion-view title="Pay It Forward">
+  <ion-content class="has-header">
+    <i class="icon" ng-class="vm.icon"></i>
+    {{ vm.what }}
+
+    <p>{{ vm.narrative }}</p>
+
+    <div ng-repeat="coffee in vm.coffees">
+        <i class="icon icon-xx-large icon-inline ion-coffee"></i>
+    </div>
+  </ion-content>
+</ion-view>
