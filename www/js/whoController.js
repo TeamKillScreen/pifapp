@@ -4,7 +4,7 @@
 * Who controller
 */
 angular.module("starter")
-.controller("WhoCtrl", function ($scope, $rootScope, $cordovaGeolocation){
+.controller("WhoCtrl", function ($scope, $rootScope, $cordovaGeolocation, $timeout){
 
 	$scope.geopoint = {
 		latitude: 0,
@@ -13,47 +13,41 @@ angular.module("starter")
 
 	$scope.partners = [];
 
-	$scope.searchResultsTemp = [{ key: "blah" }];
+	$scope.getPartners = function () {
 
-  $scope.getPartners = function () {
+	    // 53.476730522494556,-2.25376319885253
+	    //Given the current geo location, query firebase for the list of partners
+	    var firebaseRef = new Firebase("https://pif.firebaseio.com/geoLocationData");
+	    var geoFire = new GeoFire(firebaseRef);
 
-    // 53.476730522494556,-2.25376319885253
-    //Given the current geo location, query firebase for the list of partners
-    var firebaseRef = new Firebase("https://pif.firebaseio.com/geoLocationData");
-    var geoFire = new GeoFire(firebaseRef);
+	    var geoQuery = geoFire.query({
+	      center: [53.476730522494556,-2.25376319885253], //MOSI
+	      radius: 3 //kilometers
+	    });
+	    
+	    geoQuery.on("key_entered", function(key, location, distance) {
+	    	
+	    	var partnerDetails = {
+							key: key,
+							location: location,
+							name: "",
+							distance: distance
+			};
 
-    var geoQuery = geoFire.query({
-      center: [53.476730522494556,-2.25376319885253], //MOSI
-      radius: 3 //kilometers
-    });
+			var partnerRef = new Firebase("https://pif.firebaseio.com/partners/" + key);
 
-    geoQuery.on("key_entered", function(key, location, distance) {
-      $scope.searchResultsTemp.push({key: key, location: location, distance: distance});
+			partnerRef.on('value', function (snapshot) {
+				var partner = snapshot.val();
 
-      var partnerDetails = {
-					key: key,
-					location: location,
-					name: "",
-					distance: distance
-				};
+				// Set name from object list returned in call above
+				partnerDetails.name = partner.name;
 
-				var partnerRef = new Firebase("https://pif.firebaseio.com/partners/");
+				console.log(partnerDetails);
+			}, function (errorObject) {
+				console.log('The read failed: ' + errorObject.code);
+			});
 
-				partnerRef.on('value', function (snapshot) {
-					var partner = snapshot.val();
-
-					// Set name from object list returned in call above
-
-					console.log(partnerDetails);
-				}, function (errorObject) {
-					console.log('The read failed: ' + errorObject.code);
-				});
-
-				// get the partner from firebase
-				$scope.partners.push(partnerDetails);
-
-      console.log($scope.searchResultsTemp.length);
-      $scope.$digest();  
-    });
-  };
+			$scope.partners.push(partnerDetails);
+    	});
+  	};
 });

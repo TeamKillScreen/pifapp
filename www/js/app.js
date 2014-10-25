@@ -67,7 +67,7 @@ angular.module('starter', ['ionic', 'ngCordova' , 'starter.controllers', 'angula
     views: {
       'menuContent' :{
         templateUrl: "templates/who.html",
-        controller: "PartnerCtrl"
+        controller: "WhoCtrl"
       }
     }
   })
