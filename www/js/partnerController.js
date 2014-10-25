@@ -24,7 +24,7 @@ angular.module("starter")
 
       console.log($scope.searchResultsTemp.length);
       $scope.$digest();  
-    })
+    });
 /*
     $timeout(function () {
       console.log("Timer");
