@@ -126,7 +126,7 @@ angular.module('starter', ['ionic', 'ngCordova' , 'starter.controllers', 'angula
 
   ;
 
-  $urlRouterProvider.otherwise("/app/what");
+  $urlRouterProvider.otherwise("/app/browse");
 })
 
 .value("gift", null)

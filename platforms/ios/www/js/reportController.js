@@ -1,5 +1,5 @@
 angular.module("starter")
-.controller("ReportCtrl", function ($scope, $cordovaGeolocation, $cordovaSocialSharing) {
+.controller("ReportCtrl", function ($scope, $cordovaGeolocation, $cordovaSocialSharing, $cordovaContacts) {
   $scope.geopoint = {
     latitude: 0,
     longitude: 0
@@ -32,13 +32,25 @@ angular.module("starter")
     $cordovaSocialSharing
       .shareViaTwitter("Hello" /* , image, link */)
       .then(win, fail);
+  };
+
+  $scope.showCalendar = function () {
+    document.location = "calshow://";
+  };
+
+  $scope.showPingit = function () {
+    document.location = "pingit://00/07985222260";
+  };
+
+  $scope.pickContact = function () {
+    var win = function (contact) {
+      console.log("pickContact::win");
     };
 
-    $scope.showCalendar = function () {
-      document.location = "calshow://";
+    var fail = function () {
+      console.log("pickContact::fail");
     };
 
-    $scope.showPingit = function () {
-      document.location = "pingit://00/07985222260";
-    };
+    navigator.contacts.pickContact(win, fail);
+  };
 });

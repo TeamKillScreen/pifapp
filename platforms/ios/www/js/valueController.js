@@ -15,7 +15,7 @@ angular.module("starter")
             case "shelter":
                 return {
                     what: "Shelter",
-                    icon: "ion-pizza",
+                    icon: "ion-home",
                     coffees: [0, 1, 2 ],
                     narrative: "A gift of shelter means...",
                     minValue: 3,
@@ -25,7 +25,7 @@ angular.module("starter")
             default:
                 return {
                     what: "Clothing",
-                    icon: "ion-pizza",
+                    icon: "ion-person-stalker",
                     coffees: [0, 1, 2, 3, 4, 5 ],
                     narrative: "A gift of clothing means...",
                     minValue: 8,

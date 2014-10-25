@@ -1,3 +1,8 @@
 .icon-xx-large {
-    font-size: xx-large
+    font-size: xx-large;
+}
+
+.icon-inline {
+    float: left;
+    margin-right: 16px;
 }

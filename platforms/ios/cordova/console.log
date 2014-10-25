@@ -1,30 +1,24 @@
-2014-10-25 16:43:51.104 payitforwardapp[4627:99280] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/alangorton/Library/Developer/CoreSimulator/Devices/573A7BCD-775E-4BBB-AADD-19DF3B4D7388/data/Containers/Data/Application/3670CA77-9FEC-495D-AE60-E486507DA545/Library/Cookies/Cookies.binarycookies
-2014-10-25 16:43:51.256 payitforwardapp[4627:99280] Apache Cordova native platform version 3.6.3 is starting.
-2014-10-25 16:43:51.257 payitforwardapp[4627:99280] Multi-tasking -> Device: YES, App: YES
-2014-10-25 16:43:51.269 payitforwardapp[4627:99280] Unlimited access to network resources
-2014-10-25 16:43:51.481 payitforwardapp[4627:99280] [CDVTimer][socialsharing] 63.028038ms
-2014-10-25 16:43:51.481 payitforwardapp[4627:99280] [CDVTimer][TotalPluginStartup] 63.270986ms
-2014-10-25 16:43:51.553 payitforwardapp[4627:99280] Resetting plugins due to page load.
-2014-10-25 16:43:51.781 payitforwardapp[4627:99280] Finished load of: file:///Users/alangorton/Library/Developer/CoreSimulator/Devices/573A7BCD-775E-4BBB-AADD-19DF3B4D7388/data/Containers/Bundle/Application/43BA4D3D-99B9-473B-990C-F9D2C46F1900/payitforwardapp.app/www/index.html#/app/playlists
-2014-10-25 16:43:56.641 payitforwardapp[4627:99280] THREAD WARNING: ['SocialSharing'] took '18.041016' ms. Plugin should use a background thread.
-2014-10-25 17:20:47.328 payitforwardapp[5185:142481] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/alangorton/Library/Developer/CoreSimulator/Devices/573A7BCD-775E-4BBB-AADD-19DF3B4D7388/data/Containers/Data/Application/7BBFC398-265E-45F8-914E-BECD0A5828D0/Library/Cookies/Cookies.binarycookies
-2014-10-25 17:20:47.479 payitforwardapp[5185:142481] Apache Cordova native platform version 3.6.3 is starting.
-2014-10-25 17:20:47.482 payitforwardapp[5185:142481] Multi-tasking -> Device: YES, App: YES
-2014-10-25 17:20:47.494 payitforwardapp[5185:142481] Unlimited access to network resources
-2014-10-25 17:20:47.765 payitforwardapp[5185:142481] [CDVTimer][socialsharing] 64.774990ms
-2014-10-25 17:20:47.765 payitforwardapp[5185:142481] [CDVTimer][TotalPluginStartup] 65.017045ms
-2014-10-25 17:20:47.830 payitforwardapp[5185:142481] Resetting plugins due to page load.
-2014-10-25 17:20:48.070 payitforwardapp[5185:142481] Finished load of: file:///Users/alangorton/Library/Developer/CoreSimulator/Devices/573A7BCD-775E-4BBB-AADD-19DF3B4D7388/data/Containers/Bundle/Application/D24924D8-011D-4F92-97F6-82FEF2D91E60/payitforwardapp.app/www/index.html#/app/playlists
-2014-10-25 17:20:59.700 payitforwardapp[5185:142481] CDVWebViewDelegate: Navigation started when state=1
-2014-10-25 17:20:59.702 payitforwardapp[5185:142481] Failed to load webpage with error: CDVWebViewDelegate: Navigation started when state=1
-2014-10-25 17:21:01.636 payitforwardapp[5185:142481] CDVWebViewDelegate: Navigation started when state=1
-2014-10-25 17:21:01.636 payitforwardapp[5185:142481] Failed to load webpage with error: CDVWebViewDelegate: Navigation started when state=1
-2014-10-25 17:21:08.087 payitforwardapp[5185:142481] viewServiceDidTerminateWithError: Error Domain=_UIViewServiceInterfaceErrorDomain Code=3 "The operation couldn’t be completed. (_UIViewServiceInterfaceErrorDomain error 3.)" UserInfo=0x7a97fba0 {Message=Service Connection Interrupted}
-2014-10-25 22:03:03.221 payitforwardapp[5500:424506] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/alangorton/Library/Developer/CoreSimulator/Devices/573A7BCD-775E-4BBB-AADD-19DF3B4D7388/data/Containers/Data/Application/7E5CC442-592A-4706-8EDB-F4C1A6BADFBD/Library/Cookies/Cookies.binarycookies
-2014-10-25 22:03:03.426 payitforwardapp[5500:424506] Apache Cordova native platform version 3.6.3 is starting.
-2014-10-25 22:03:03.427 payitforwardapp[5500:424506] Multi-tasking -> Device: YES, App: YES
-2014-10-25 22:03:03.470 payitforwardapp[5500:424506] Unlimited access to network resources
-2014-10-25 22:03:03.958 payitforwardapp[5500:424506] [CDVTimer][socialsharing] 92.642009ms
-2014-10-25 22:03:03.958 payitforwardapp[5500:424506] [CDVTimer][TotalPluginStartup] 92.963994ms
-2014-10-25 22:03:04.214 payitforwardapp[5500:424506] Resetting plugins due to page load.
-2014-10-25 22:03:04.741 payitforwardapp[5500:424506] Finished load of: file:///Users/alangorton/Library/Developer/CoreSimulator/Devices/573A7BCD-775E-4BBB-AADD-19DF3B4D7388/data/Containers/Bundle/Application/98661F18-4328-48CF-B9E9-64968958699A/payitforwardapp.app/www/index.html#/app/what
+2014-10-25 22:35:23.771 payitforwardapp[6786:466046] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/alangorton/Library/Developer/CoreSimulator/Devices/573A7BCD-775E-4BBB-AADD-19DF3B4D7388/data/Containers/Data/Application/61E0452F-F9CB-4205-AC6E-EBF02730784C/Library/Cookies/Cookies.binarycookies
+2014-10-25 22:35:23.877 payitforwardapp[6786:466046] Apache Cordova native platform version 3.6.3 is starting.
+2014-10-25 22:35:23.878 payitforwardapp[6786:466046] Multi-tasking -> Device: YES, App: YES
+2014-10-25 22:35:23.886 payitforwardapp[6786:466046] Unlimited access to network resources
+2014-10-25 22:35:24.083 payitforwardapp[6786:466046] [CDVTimer][socialsharing] 57.767034ms
+2014-10-25 22:35:24.083 payitforwardapp[6786:466046] [CDVTimer][TotalPluginStartup] 58.019996ms
+2014-10-25 22:35:24.204 payitforwardapp[6786:466046] Resetting plugins due to page load.
+2014-10-25 22:35:24.431 payitforwardapp[6786:466046] Finished load of: file:///Users/alangorton/Library/Developer/CoreSimulator/Devices/573A7BCD-775E-4BBB-AADD-19DF3B4D7388/data/Containers/Bundle/Application/CE14ECB7-35C4-4183-B68E-9677BE15B43D/payitforwardapp.app/www/index.html#/app/what
+2014-10-25 22:36:05.229 payitforwardapp[7231:468233] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/alangorton/Library/Developer/CoreSimulator/Devices/573A7BCD-775E-4BBB-AADD-19DF3B4D7388/data/Containers/Data/Application/90FE6791-8451-464E-A1A2-09ACBB24EF92/Library/Cookies/Cookies.binarycookies
+2014-10-25 22:36:05.325 payitforwardapp[7231:468233] Apache Cordova native platform version 3.6.3 is starting.
+2014-10-25 22:36:05.327 payitforwardapp[7231:468233] Multi-tasking -> Device: YES, App: YES
+2014-10-25 22:36:05.335 payitforwardapp[7231:468233] Unlimited access to network resources
+2014-10-25 22:36:05.516 payitforwardapp[7231:468233] [CDVTimer][socialsharing] 53.990006ms
+2014-10-25 22:36:05.516 payitforwardapp[7231:468233] [CDVTimer][TotalPluginStartup] 54.212034ms
+2014-10-25 22:36:05.578 payitforwardapp[7231:468233] Resetting plugins due to page load.
+2014-10-25 22:36:05.811 payitforwardapp[7231:468233] Finished load of: file:///Users/alangorton/Library/Developer/CoreSimulator/Devices/573A7BCD-775E-4BBB-AADD-19DF3B4D7388/data/Containers/Bundle/Application/F999B9EB-0C75-4DCB-9665-7F216706D413/payitforwardapp.app/www/index.html#/app/browse
+2014-10-25 22:36:10.444 payitforwardapp[7231:468233] Exception - Name: NSRangeException Reason: *** -[__NSArrayM objectAtIndex:]: index 0 beyond bounds for empty array
+2014-10-25 22:36:10.518 payitforwardapp[7231:468233] THREAD WARNING: ['Contacts'] took '80.791016' ms. Plugin should use a background thread.
+2014-10-25 22:36:15.225 payitforwardapp[7231:468233] Exception - Name: NSRangeException Reason: *** -[__NSArrayM objectAtIndex:]: index 0 beyond bounds for empty array
+2014-10-25 22:36:20.585 payitforwardapp[7231:468233] Exception - Name: NSRangeException Reason: *** -[__NSArrayM objectAtIndex:]: index 0 beyond bounds for empty array
+2014-10-25 22:37:29.464 payitforwardapp[7231:468233] Exception - Name: NSRangeException Reason: *** -[__NSArrayM objectAtIndex:]: index 0 beyond bounds for empty array
+2014-10-25 22:37:34.540 payitforwardapp[7231:468233] Exception - Name: NSRangeException Reason: *** -[__NSArrayM objectAtIndex:]: index 0 beyond bounds for empty array
+2014-10-25 22:37:37.464 payitforwardapp[7231:468233] Exception - Name: NSRangeException Reason: *** -[__NSArrayM objectAtIndex:]: index 0 beyond bounds for empty array
+2014-10-25 22:37:38.062 payitforwardapp[7231:468233] Warning: Attempt to dismiss from view controller <MainViewController: 0x79f51ce0> while a presentation or dismiss is in progress!

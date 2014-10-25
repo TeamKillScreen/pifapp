@@ -25,10 +25,7 @@
 		308D05391370CCF300D202BF /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 308D05301370CCF300D202BF /* icon@2x.png */; };
 		30A0434814DC770100060A13 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 30A0434314DC770100060A13 /* Localizable.strings */; };
 		30FC414916E50CA1004E6F35 /* icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 30FC414816E50CA1004E6F35 /* icon-72@2x.png */; };
-		46A828B8B67A4321A9F86D2A /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DE5ABC7EAE840F79317DCEA /* CoreLocation.framework */; };
 		5B1594DD16A7569C00FEF299 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B1594DC16A7569C00FEF299 /* AssetsLibrary.framework */; };
-		5C8EDE57C0FC4126B77410D2 /* AppAvailability.m in Sources */ = {isa = PBXBuildFile; fileRef = CA7C48E11B584DE084030AF1 /* AppAvailability.m */; };
-		6A9FBA9D58DA4C11B18B8AFE /* CDVLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = D25F1C5F44FD44F59136DE8B /* CDVLocation.m */; };
 		7E7966DE1810823500FA85AD /* icon-40.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966D41810823500FA85AD /* icon-40.png */; };
 		7E7966DF1810823500FA85AD /* icon-40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966D51810823500FA85AD /* icon-40@2x.png */; };
 		7E7966E01810823500FA85AD /* icon-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966D61810823500FA85AD /* icon-50.png */; };
@@ -39,10 +36,17 @@
 		7E7966E51810823500FA85AD /* icon-76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966DB1810823500FA85AD /* icon-76@2x.png */; };
 		7E7966E61810823500FA85AD /* icon-small.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966DC1810823500FA85AD /* icon-small.png */; };
 		7E7966E71810823500FA85AD /* icon-small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966DD1810823500FA85AD /* icon-small@2x.png */; };
-		96E513113F714C34811AD325 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70FBACCC4A0346E4A0C2FA90 /* Social.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
-		B516B4B3268F4759BFC07E34 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27EE8C09E54A4D94BF652CEB /* MessageUI.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		D4A0D8761607E02300AEF8BB /* Default-568h@2x~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = D4A0D8751607E02300AEF8BB /* Default-568h@2x~iphone.png */; };
-		ED6A826456C74A49B5EB9440 /* SocialSharing.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BB4980FCEB34340A0854D3B /* SocialSharing.m */; };
+		DF8CB56F1F224D3B81844E6F /* AppAvailability.m in Sources */ = {isa = PBXBuildFile; fileRef = 354C6B8FE33549C39189AAC4 /* AppAvailability.m */; };
+		DD67B07CFEBE40C98AE157B1 /* SocialSharing.m in Sources */ = {isa = PBXBuildFile; fileRef = 10EB16DC570F4A38B4A3C72A /* SocialSharing.m */; };
+		67FE1B3306514457925B41F3 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4129C4A5EFE4C3A81E511CF /* Social.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		795E369A1B5443C2A5552E6D /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCB8A9929ACB43A98556AC14 /* MessageUI.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		F7CCC8B6C8C940B1B3E5D308 /* CDVContacts.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FD6E36D62B3446F91BCD1FD /* CDVContacts.m */; };
+		C239F20A8E0F4DEC90324567 /* CDVContact.m in Sources */ = {isa = PBXBuildFile; fileRef = F48F3B1C865B48BE813366E3 /* CDVContact.m */; };
+		481E9699DF89449396C44BEF /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B8ADC6E193249A48A14D5A3 /* AddressBook.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		DDD20A510D784C23B8F560C0 /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DC02E7290284FA293108D7B /* AddressBookUI.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		BCDAE2A8D6C746D086D986F6 /* CDVLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = F7F63664030841878A6D9874 /* CDVLocation.m */; };
+		13C078D1F2494C6C913A6032 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6A152D05A8743129CF4B6AE /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,13 +69,12 @@
 /* Begin PBXFileReference section */
 		1D3623240D0F684500981E51 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1D3623250D0F684500981E51 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		1D6058910D05DD3D006BFB54 /* payitforwardapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = payitforwardapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D6058910D05DD3D006BFB54 /* payitforwardapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "payitforwardapp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F766FDD13BBADB100FB74C0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Localizable.strings; sourceTree = "<group>"; };
 		1F766FE013BBADB100FB74C0 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = Localizable.strings; sourceTree = "<group>"; };
-		27EE8C09E54A4D94BF652CEB /* MessageUI.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		301BF52D109A57CC0062928A /* CordovaLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CordovaLib.xcodeproj; path = CordovaLib/CordovaLib.xcodeproj; sourceTree = "<group>"; };
+		301BF52D109A57CC0062928A /* CordovaLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CordovaLib.xcodeproj; path = "CordovaLib/CordovaLib.xcodeproj"; sourceTree = "<group>"; };
 		301BF56E109A69640062928A /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = SOURCE_ROOT; };
 		302D95EE14D2391D003F00A1 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		302D95EF14D2391D003F00A1 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
@@ -90,12 +93,7 @@
 		30A0434714DC770100060A13 /* se */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = se; path = Localizable.strings; sourceTree = "<group>"; };
 		30FC414816E50CA1004E6F35 /* icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-72@2x.png"; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* payitforwardapp-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "payitforwardapp-Prefix.pch"; sourceTree = "<group>"; };
-		42ACCF113AF54C94913FB0BD /* CDVLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDVLocation.h; path = org.apache.cordova.geolocation/CDVLocation.h; sourceTree = "<group>"; };
-		4BB4980FCEB34340A0854D3B /* SocialSharing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SocialSharing.m; path = "nl.x-services.plugins.socialsharing/SocialSharing.m"; sourceTree = "<group>"; };
-		54EAA283BEBD44E7AF3C8B34 /* AppAvailability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppAvailability.h; path = com.ohh2ahh.plugins.appavailability/AppAvailability.h; sourceTree = "<group>"; };
 		5B1594DC16A7569C00FEF299 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
-		5DE5ABC7EAE840F79317DCEA /* CoreLocation.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
-		70FBACCC4A0346E4A0C2FA90 /* Social.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		7E7966D41810823500FA85AD /* icon-40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-40.png"; sourceTree = "<group>"; };
 		7E7966D51810823500FA85AD /* icon-40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-40@2x.png"; sourceTree = "<group>"; };
 		7E7966D61810823500FA85AD /* icon-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-50.png"; sourceTree = "<group>"; };
@@ -107,14 +105,26 @@
 		7E7966DC1810823500FA85AD /* icon-small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-small.png"; sourceTree = "<group>"; };
 		7E7966DD1810823500FA85AD /* icon-small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-small@2x.png"; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* payitforwardapp-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "payitforwardapp-Info.plist"; path = "../payitforwardapp-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
-		C9F758C1958D4BDBB51BDA8F /* SocialSharing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SocialSharing.h; path = "nl.x-services.plugins.socialsharing/SocialSharing.h"; sourceTree = "<group>"; };
-		CA7C48E11B584DE084030AF1 /* AppAvailability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppAvailability.m; path = com.ohh2ahh.plugins.appavailability/AppAvailability.m; sourceTree = "<group>"; };
-		D25F1C5F44FD44F59136DE8B /* CDVLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CDVLocation.m; path = org.apache.cordova.geolocation/CDVLocation.m; sourceTree = "<group>"; };
 		D4A0D8751607E02300AEF8BB /* Default-568h@2x~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x~iphone.png"; sourceTree = "<group>"; };
 		EB87FDF21871DA7A0020F90C /* merges */ = {isa = PBXFileReference; lastKnownFileType = folder; name = merges; path = ../../merges; sourceTree = "<group>"; };
 		EB87FDF31871DA8E0020F90C /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; name = www; path = ../../www; sourceTree = "<group>"; };
 		EB87FDF41871DAF40020F90C /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = ../../config.xml; sourceTree = "<group>"; };
-		F840E1F0165FE0F500CFE078 /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = payitforwardapp/config.xml; sourceTree = "<group>"; };
+		F840E1F0165FE0F500CFE078 /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = "payitforwardapp/config.xml"; sourceTree = "<group>"; };
+		354C6B8FE33549C39189AAC4 /* AppAvailability.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "AppAvailability.m"; path = "com.ohh2ahh.plugins.appavailability/AppAvailability.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		3087CCCC6FBB4238B3CF6F18 /* AppAvailability.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "AppAvailability.h"; path = "com.ohh2ahh.plugins.appavailability/AppAvailability.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		10EB16DC570F4A38B4A3C72A /* SocialSharing.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "SocialSharing.m"; path = "nl.x-services.plugins.socialsharing/SocialSharing.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		A295EE5F3C134D0BB2A9FBFA /* SocialSharing.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "SocialSharing.h"; path = "nl.x-services.plugins.socialsharing/SocialSharing.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		C4129C4A5EFE4C3A81E511CF /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "Social.framework"; path = "System/Library/Frameworks/Social.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
+		FCB8A9929ACB43A98556AC14 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "MessageUI.framework"; path = "System/Library/Frameworks/MessageUI.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
+		6FD6E36D62B3446F91BCD1FD /* CDVContacts.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVContacts.m"; path = "org.apache.cordova.contacts/CDVContacts.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		F48F3B1C865B48BE813366E3 /* CDVContact.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVContact.m"; path = "org.apache.cordova.contacts/CDVContact.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		CCB50ACC8CB847A1AE065D05 /* CDVContacts.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVContacts.h"; path = "org.apache.cordova.contacts/CDVContacts.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		2FE9343E48C8442A859D4A72 /* CDVContact.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVContact.h"; path = "org.apache.cordova.contacts/CDVContact.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		8B8ADC6E193249A48A14D5A3 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "AddressBook.framework"; path = "System/Library/Frameworks/AddressBook.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
+		9DC02E7290284FA293108D7B /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "AddressBookUI.framework"; path = "System/Library/Frameworks/AddressBookUI.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
+		F7F63664030841878A6D9874 /* CDVLocation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVLocation.m"; path = "org.apache.cordova.geolocation/CDVLocation.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		B18A733D5949427C9C258706 /* CDVLocation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVLocation.h"; path = "org.apache.cordova.geolocation/CDVLocation.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		E6A152D05A8743129CF4B6AE /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "CoreLocation.framework"; path = "System/Library/Frameworks/CoreLocation.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,9 +136,11 @@
 				301BF552109A68D80062928A /* libCordova.a in Frameworks */,
 				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
 				305D5FD1115AB8F900A74A75 /* MobileCoreServices.framework in Frameworks */,
-				96E513113F714C34811AD325 /* Social.framework in Frameworks */,
-				B516B4B3268F4759BFC07E34 /* MessageUI.framework in Frameworks */,
-				46A828B8B67A4321A9F86D2A /* CoreLocation.framework in Frameworks */,
+				67FE1B3306514457925B41F3 /* Social.framework in Frameworks */,
+				795E369A1B5443C2A5552E6D /* MessageUI.framework in Frameworks */,
+				481E9699DF89449396C44BEF /* AddressBook.framework in Frameworks */,
+				DDD20A510D784C23B8F560C0 /* AddressBookUI.framework in Frameworks */,
+				13C078D1F2494C6C913A6032 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -145,7 +157,7 @@
 				1D3623250D0F684500981E51 /* AppDelegate.m */,
 			);
 			name = Classes;
-			path = payitforwardapp/Classes;
+			path = "payitforwardapp/Classes";
 			sourceTree = SOURCE_ROOT;
 		};
 		19C28FACFE9D520D11CA2CBB /* Products */ = {
@@ -197,7 +209,7 @@
 				29B97316FDCFA39411CA2CEA /* main.m */,
 			);
 			name = "Other Sources";
-			path = payitforwardapp;
+			path = "payitforwardapp";
 			sourceTree = "<group>";
 		};
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
@@ -212,7 +224,7 @@
 				8D1107310486CEB800E47090 /* payitforwardapp-Info.plist */,
 			);
 			name = Resources;
-			path = payitforwardapp/Resources;
+			path = "payitforwardapp/Resources";
 			sourceTree = "<group>";
 		};
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
@@ -221,9 +233,11 @@
 				5B1594DC16A7569C00FEF299 /* AssetsLibrary.framework */,
 				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
 				305D5FD0115AB8F900A74A75 /* MobileCoreServices.framework */,
-				70FBACCC4A0346E4A0C2FA90 /* Social.framework */,
-				27EE8C09E54A4D94BF652CEB /* MessageUI.framework */,
-				5DE5ABC7EAE840F79317DCEA /* CoreLocation.framework */,
+				C4129C4A5EFE4C3A81E511CF /* Social.framework */,
+				FCB8A9929ACB43A98556AC14 /* MessageUI.framework */,
+				8B8ADC6E193249A48A14D5A3 /* AddressBook.framework */,
+				9DC02E7290284FA293108D7B /* AddressBookUI.framework */,
+				E6A152D05A8743129CF4B6AE /* CoreLocation.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -239,15 +253,19 @@
 		307C750510C5A3420062BCA9 /* Plugins */ = {
 			isa = PBXGroup;
 			children = (
-				CA7C48E11B584DE084030AF1 /* AppAvailability.m */,
-				54EAA283BEBD44E7AF3C8B34 /* AppAvailability.h */,
-				4BB4980FCEB34340A0854D3B /* SocialSharing.m */,
-				C9F758C1958D4BDBB51BDA8F /* SocialSharing.h */,
-				D25F1C5F44FD44F59136DE8B /* CDVLocation.m */,
-				42ACCF113AF54C94913FB0BD /* CDVLocation.h */,
+				354C6B8FE33549C39189AAC4 /* AppAvailability.m */,
+				3087CCCC6FBB4238B3CF6F18 /* AppAvailability.h */,
+				10EB16DC570F4A38B4A3C72A /* SocialSharing.m */,
+				A295EE5F3C134D0BB2A9FBFA /* SocialSharing.h */,
+				6FD6E36D62B3446F91BCD1FD /* CDVContacts.m */,
+				F48F3B1C865B48BE813366E3 /* CDVContact.m */,
+				CCB50ACC8CB847A1AE065D05 /* CDVContacts.h */,
+				2FE9343E48C8442A859D4A72 /* CDVContact.h */,
+				F7F63664030841878A6D9874 /* CDVLocation.m */,
+				B18A733D5949427C9C258706 /* CDVLocation.h */,
 			);
 			name = Plugins;
-			path = payitforwardapp/Plugins;
+			path = "payitforwardapp/Plugins";
 			sourceTree = SOURCE_ROOT;
 		};
 		308D052D1370CCF300D202BF /* icons */ = {
@@ -327,8 +345,8 @@
 			dependencies = (
 				301BF551109A68C00062928A /* PBXTargetDependency */,
 			);
-			name = payitforwardapp;
-			productName = payitforwardapp;
+			name = "payitforwardapp";
+			productName = "payitforwardapp";
 			productReference = 1D6058910D05DD3D006BFB54 /* payitforwardapp.app */;
 			productType = "com.apple.product-type.application";
 		};
@@ -339,13 +357,8 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 510;
-				TargetAttributes = {
-					1D6058900D05DD3D006BFB54 = {
-						DevelopmentTeam = NGPWN27BC7;
-					};
-				};
 			};
-			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "payitforwardapp" */;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "__CLI__" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 1;
@@ -444,9 +457,11 @@
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* AppDelegate.m in Sources */,
 				302D95F114D2391D003F00A1 /* MainViewController.m in Sources */,
-				5C8EDE57C0FC4126B77410D2 /* AppAvailability.m in Sources */,
-				ED6A826456C74A49B5EB9440 /* SocialSharing.m in Sources */,
-				6A9FBA9D58DA4C11B18B8AFE /* CDVLocation.m in Sources */,
+				DF8CB56F1F224D3B81844E6F /* AppAvailability.m in Sources */,
+				DD67B07CFEBE40C98AE157B1 /* SocialSharing.m in Sources */,
+				F7CCC8B6C8C940B1B3E5D308 /* CDVContacts.m in Sources */,
+				C239F20A8E0F4DEC90324567 /* CDVContact.m in Sources */,
+				BCDAE2A8D6C746D086D986F6 /* CDVLocation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -501,8 +516,6 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -526,8 +539,7 @@
 					"\"$(BUILT_PRODUCTS_DIR)/libCordova.a\"",
 					"-ObjC",
 				);
-				PRODUCT_NAME = payitforwardapp;
-				PROVISIONING_PROFILE = "";
+				PRODUCT_NAME = "payitforwardapp";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -537,8 +549,6 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "payitforwardapp/payitforwardapp-Prefix.pch";
@@ -560,8 +570,7 @@
 					"\"$(BUILT_PRODUCTS_DIR)/libCordova.a\"",
 					"-ObjC",
 				);
-				PRODUCT_NAME = payitforwardapp;
-				PROVISIONING_PROFILE = "";
+				PRODUCT_NAME = "payitforwardapp";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -669,7 +678,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "payitforwardapp" */ = {
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "__CLI__" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C01FCF4F08A954540054247B /* Debug */,
