@@ -4,5 +4,16 @@
   </ion-nav-buttons>
   <ion-content class="has-header">
     <h1>Local</h1>
+    <input type="button" ng-click="getPartners()" value="Get Location" />
+    <ul>
+    	<li ng-repeat="result in searchResultsTemp">{{ result.key }}</li>
+    </ul>
+
+    {{ searchResultsTemp.length }}
+
+    {{ searchResults }}
+    <a class="button button-block icon-right ion-chevron-right button-royal">Mustard Tree</a>
+    <a class="button button-block icon-right ion-chevron-right button-royal">Booth Centre</a>
+    <a class="button button-block icon-right ion-chevron-right button-royal">Barnabas</a>
   </ion-content>
 </ion-view>

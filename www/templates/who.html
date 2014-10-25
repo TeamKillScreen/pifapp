@@ -1,5 +1,26 @@
+<<<<<<< Updated upstream
 <ion-view title="Pay It Forward">
   <ion-content class="has-header">
     {{ what }}
+=======
+<ion-view title="Search">
+  <ion-nav-buttons side="left">
+    <button menu-toggle="left" class="button button-icon icon ion-navicon"></button>
+  </ion-nav-buttons>
+  <ion-content class="has-header">
+    <h1>Local</h1>
+    <input type="button" ng-click="getPartners()" value="Get Location" />
+    <ul>
+    	<li ng-repeat="result in searchResultsTemp">{{ result.key }}</li>
+    </ul>
+
+    {{ searchResultsTemp.length }}
+
+    {{ geopoint.latitude }}
+    {{ geopoint.longitude }}
+    <!-- <a class="button button-block icon-right ion-chevron-right button-royal">Mustard Tree</a>
+    <a class="button button-block icon-right ion-chevron-right button-royal">Booth Centre</a>
+    <a class="button button-block icon-right ion-chevron-right button-royal">Barnabas</a> -->
+>>>>>>> Stashed changes
   </ion-content>
 </ion-view>
